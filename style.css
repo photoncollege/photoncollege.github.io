@@ -153,3 +153,54 @@
     left: 0;
   }
   
+.menu-toggle {
+    display: none;
+    font-size: 2em;
+    background: none;
+    border: none;
+    color: #DFDBD9;
+    position: absolute;
+    top: 1em;
+    right: 1em;
+    cursor: pointer;
+  }
+  
+  .nav-wrap {
+    display: none;
+  }
+  
+  @media (max-width: 768px) {
+    .menu-toggle {
+      display: block;
+    }
+  
+    .header {
+      width: 100%;
+      height: auto;
+      position: relative;
+    }
+  
+    .nav-wrap {
+      display: none;
+      width: 100%;
+      background-color: #35302D;
+    }
+  
+    .nav-wrap.open {
+      display: block;
+    }
+  
+    .main-nav ul {
+      display: block;
+      text-align: center;
+    }
+  
+    .main-nav li {
+      border-bottom: solid 1px #3C3735;
+    }
+  
+    .main-nav a {
+      padding: 1.5em 0;
+    }
+  }
+  
