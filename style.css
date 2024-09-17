@@ -1,12 +1,19 @@
+/* Add some general reset styles */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/* Font styles */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Roboto', sans-serif;
     background-color: #fff;
+    line-height: 1.6;
+}
+
+h1, h2 {
+    font-family: 'Merriweather', serif;
 }
 
 .navbar {
@@ -21,6 +28,7 @@ body {
 
 .logo {
     font-size: 24px;
+    font-family: 'Merriweather', serif;
 }
 
 .menu-toggle {
@@ -43,7 +51,6 @@ body {
     transition: height 0.3s ease, opacity 0.3s ease;
     flex-direction: column;
 }
-
 
 .nav-links li {
     text-align: center;
@@ -80,26 +87,31 @@ body {
         border: none;
     }
 }
+
 .indexheading1 {
     font-size: 28px;
     margin: 20px;
     text-align: center;
+    font-weight: 700;
+    color: #333;
 }
 
 .indexheading2 {
     margin: 20px;
     text-align: center;
+    font-weight: 400;
+    color: #555;
 }
 
 .indexp {
     font-size: 18px;
     margin: 20px;
-    line-height: 1.5;
+    line-height: 1.7;
     text-align: justify;
+    color: #333;
 }
 
 ul {
-    /* margin: 20px; */
     padding-left: 40px;
     list-style-type: square;
 }
